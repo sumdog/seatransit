@@ -1,0 +1,12 @@
+<h1 class="title" data-bind="station"></h1>
+
+<table class="list-nostyle">
+  <tr data-foreach-task="schedule">
+    <td class="label" data-bind="task.num"></td>
+    <td class="label" data-bind="task.calc"></td>
+    <td class="label">
+      <img class="seatransit-icon" data-showif="task.data | equals 'live'" src="/assets/seatransit/satellite.svg" alt="predicted time" />
+      <img class="seatransit-icon" data-showif="task.data | equals 'sched'" src="/assets/seatransit/clock.svg" alt="scheduled time" />
+    </td>
+  </tr>
+</table>
