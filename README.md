@@ -3,7 +3,7 @@ Seatransit Dashing Widget
 
 This is a dashing widget for displaying schedules/live tracking data from Seattle transit.
 
-![screenshots/widgets.png]
+![Seatransit Screenshot](screenshots/widgets.png)
 
 Installation
 ------------
@@ -19,7 +19,7 @@ ln -rs seatransit/widget widgets/seatransit
 
 Configuration
 -------------
-You'll need to identify your stop/station ID using the (Sound Transit Real-Time Arrivals)[http://m.soundtransit.org/stops-and-arrivals]. The stop number appears when you click on a stop. Place a list of those numbers in the `seatransit.rb` job.
+You'll need to identify your stop/station ID using the [Sound Transit Real-Time Arrivals](http://m.soundtransit.org/stops-and-arrivals). The stop number appears when you click on a stop. Place a list of those numbers in the `seatransit.rb` job.
 
 ```
 # jobs/seatransit.rb
